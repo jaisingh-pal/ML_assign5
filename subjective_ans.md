@@ -7,5 +7,3 @@ Yes data augmentation reduces overfitting. Helps in
 3] Does it matter how many epochs you fine tune the model? Why or why not?
 Yes, the number of epochs can be an important hyperparameter to fine-tune your model. The number of epochs determines how many times the model will iterate over the training data during training. If you train the model for too few epochs, it may not have sufficient time to learn the patterns in the data and may underfit. On the other hand, if you train the model for too many epochs, it may overfit to the training data and perform poorly on unseen data.
 The optimal number of epochs depends on the complexity of the model and the amount of training data available. 
-
-4] Are there any particular images that the model is confused about? Why or why not?
